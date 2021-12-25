@@ -13,12 +13,12 @@ A template for creating a read-only API from a CSV file and hosting it on GitHub
 2. Replace `mydata.csv` with your data.
 3. Publish to GitHub Pages.
 
-Your data is published as a JSON file that you can use to pull into your apps and design tools.
+Your data is published as a JSON file that you can use to pull content into your apps and design tools.
 
 For more details, see the [README](https://github.com/githubfornocoders/nocode-api-github-pages#readme).
 
 <div class="d-flex mt-6">
-<a href="{{ site.baseurl }}/api.json" class="btn-mktg btn-large-mktg mr-3">Copy link to clipboard</a>
+<button id="copy" data-clipboard-text="{{ site.baseurl }}/api.json" class="btn-mktg btn-large-mktg mr-3">Copy link to clipboard</button>
 <a href="{{ site.baseurl }}/api.json" class="btn-mktg btn-muted-mktg btn-large-mktg" target="_blank">Open link</a>
 </div>
 
