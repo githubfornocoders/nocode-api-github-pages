@@ -16,6 +16,7 @@ Your data is published as a JSON file that you can use to pull content into your
 
 - On the code tab, press the `Use this template` button.
 - You will be prompted to create a new repository under your account.
+- IMPORTANT: Use the same repo name, `nocode-api-github-pages`, so that everything works out of the box. If you want to use a different name, you can, you just need to update the `baseurl` setting in the `_config.yml` to match.
 
 ### Replace `mydata.csv` with your data
 
