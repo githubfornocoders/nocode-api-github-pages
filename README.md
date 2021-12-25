@@ -25,6 +25,10 @@ Your data is published as a JSON file that you can use to pull content into your
 - To keep things simple, name your file "mydata.csv" and replace the existing one.
 - If you want to use a different filename, update the `data-file-name` setting in the `_config.yml` file. (Note: Don't include the `.csv` extension in the setting; just the filename.)
 
+> To see what's going on with your data, you can use [json2table.com](http://json2table.com/) to see the JSON content rendered as both a table and tree. Just copy and paste the content from your `api.json` file. This can help with troubleshooting if something is not working.
+>
+> **Note this site is not secure so don't paste any sensitive data there.**
+
 ### Publish to GitHub Pages
 
 - Under the Settings, go to Pages.
