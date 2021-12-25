@@ -18,8 +18,8 @@ Your data is published as a JSON file that you can use to pull content into your
 For more details, see the [README](https://github.com/githubfornocoders/nocode-api-github-pages#readme).
 
 <div class="d-flex mt-6">
-<button id="copy" data-clipboard-text="{{ site.baseurl }}/api.json" class="btn-mktg btn-large-mktg mr-3">Copy link to clipboard</button>
-<a href="{{ site.baseurl }}/api.json" class="btn-mktg btn-muted-mktg btn-large-mktg" target="_blank">Open link</a>
+<button id="copy" data-clipboard-text="{{ site.url }}{{ site.baseurl }}/api.json" class="btn-mktg btn-large-mktg mr-3">Copy link to clipboard</button>
+<a href="{{ site.url }}{{ site.baseurl }}/api.json" class="btn-mktg btn-muted-mktg btn-large-mktg" target="_blank">Open link</a>
 </div>
 
 <hr>
