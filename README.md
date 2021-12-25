@@ -1,7 +1,6 @@
 # No-Code API with GitHub Pages
 
 A template for creating a read-only API from a CSV file and hosting it on GitHub Pages
-{: .f2}
 
 ## How it works
 
@@ -35,4 +34,4 @@ Your data is published as a JSON file that you can use to pull content into your
 - The URL of the JSON file is `http://YOUR-GITHUB-ACCOUNT/YOUR-REPO-NAME/api.json`.
 
 ## Credit and license
-This project was created primarily using the [GitHub Pages gem for Jekyll](https://github.com/github/pages-gem) and a slightly modified [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate). It is licensed under [The Unlicense](https://github.com/pglevy/plain-vanilla-gh-pages/blob/main/LICENSE), which allows everything and promises nothing. 😎
+This project was created primarily using the [GitHub Pages gem for Jekyll](https://github.com/github/pages-gem) and a slightly modified [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate).
