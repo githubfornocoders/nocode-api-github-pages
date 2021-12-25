@@ -2,16 +2,23 @@
 layout: index
 title: Home
 ---
-# Plain Vanilla GitHub Pages
-The purpose of this project is to make it as easy as possible for low-tech people like me to create and host basic web pages for free on [GitHub Pages](https://pages.github.com/).
+# No-Code API with GitHub Pages
+
+A template for creating a read-only API from a CSV file and hosting it on GitHub Pages
+{: .f2}
 
 ## How it works
-After creating your own copy of this template repository, add new pages as you need them using the markdown (.md) format. See the [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/) reference for how to add different elements to your pages. If you want to go beyond markdown and add more interactive elements (like button links for navigation components), you can copy and paste code snippets for [GitHub Primer components](https://primer.style/css/components) right into your pages.
 
-<div class="my-6 text-center">
-<a href="https://github.com/pglevy/plain-vanilla-gh-pages" class="btn-mktg btn-large-mktg">Get the template on GitHub</a>
-  <br>
-<a href="https://youtu.be/jlkHEmgQhGU" class="btn-mktg btn-outline-mktg mt-3">Watch the tutorial on YouTube</a>
+1. Create a copy of this repo template.
+2. Replace `mydata.csv` with your data.
+3. Publish to GitHub Pages.
+
+For more details, see the [README](https://github.com/githubfornocoders/nocode-api-github-pages#readme).
+
+<div class="d-flex mt-6">
+<a href="{{ site.baseurl }}/api.json" class="btn-mktg btn-large-mktg mr-3">Open the JSON file</a>
+<a href="{{ site.baseurl }}/api.json" class="btn-mktg btn-muted-mktg btn-large-mktg">Open the JSON file</a>
 </div>
 
-![Screenshot of "create a new repository" action](assets/img/create-repo.jpg)
+<hr>
+A [GitHub for No-Coders](https://github.com/githubfornocoders) project

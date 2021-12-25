@@ -13,5 +13,8 @@ ga: UA-XXXXX-Y
 # Avoid GitHub API authentication when building locally.
 github: [metadata]
 
+# Enable for live hosting on GitHub Pages
+baseurl: /nocode-api-github-pages
+
 # Change the name of the CSV file if you don't want to use the default name. (Just the filename; no extension)
 data-file-name: mydata
