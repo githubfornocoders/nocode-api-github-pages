@@ -22,7 +22,7 @@ Your data is published as a JSON file that you can use to pull content into your
 - The `mydata.csv` file is located in the `_data` folder.
 - This file contains example data you can test with your repo.
 - To replace the data, you can copy and paste text comma-separated-value format over the existing text or you can replace the whole file.
-- To keep things simple, name your file "mydata.csv" and replace the existing one.
+- To keep things simple, name your file “mydata.csv” and replace the existing one.
 - If you want to use a different filename, update the `data-file-name` setting in the `_config.yml` file. (Note: Don't include the `.csv` extension in the setting; just the filename.)
 
 > To see what's going on with your data, you can use [json2table.com](http://json2table.com/) to see the JSON content rendered as both a table and tree. Just copy and paste the content from your `api.json` file. This can help with troubleshooting if something is not working.
